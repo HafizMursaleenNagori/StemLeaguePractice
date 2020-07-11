@@ -1,0 +1,52 @@
+body{
+    animation: scroll 20s linear infinite;
+    background-image: url("https://cdn1.vectorstock.com/i/1000x1000/62/75/jungle-path-game-background-vector-20736275.jpg")
+}
+@keyframes scroll {
+    0% {background-position: 0 0;}
+    100% {background-position: 100vw 0;}
+}
+img{
+    margin-top: 25px;
+    margin-left: 350px;
+}
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: serif;
+    text-align: center;
+    color: cornflowerblue;
+}
+h2{
+    font-weight: bolder;
+    font-family: serif;
+    color: cornflowerblue;
+    font-size: 30px;
+}
+#dino{
+    margin-left: 400px;
+    margin-top: -130px;
+}
+input{
+    border: 2px solid green;
+    padding: 5px auto;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+}
+button{
+    border: 2px solid yellowgreen;
+    padding: 1px auto;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+    margin-left: 50px;
+    color: palegreen;
+    background-color: green;
+}
+button:hover{
+    color: green;
+    background-color: palegreen;
+    cursor: pointer;
+}
+
